@@ -34,4 +34,4 @@
     
 5. Experiment with running the various requests to create, update, and delete books from the bookstore database. The entries will now persist between restarts of the go server.
 You can also view the contents of the database by connecting to mysql via the terminal / command line.
-![alt text](example_mysql_books_db.png)
+![example database](/example_mysql_books_db.PNG)
