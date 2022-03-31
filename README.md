@@ -6,7 +6,7 @@
 2. MySQL installed
 
 ## Build and run
-1. Modify line 13 of pkg/config/app.go to have your MySQL credentials.As is, the app.go file has the MySQL username and password hard-coded as "root" and "root". These credentials need to be updated to one of your local MySQL users.
+1. Modify line 13 of pkg/config/app.go to have your MySQL credentials. As is, the app.go file has the MySQL username and password hard-coded as "root" and "root". These credentials need to be updated to one of your local MySQL users.
 2. Create a bookstore database in MySQL
     
     ```
@@ -18,7 +18,7 @@
 3. Build and start the server with the following commands:
 
     ```
-    cd <cloned_repo>/cmd/src
+    cd <cloned_repo>/cmd/main
     go build
     go run main.go
     ```
